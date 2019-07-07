@@ -1,5 +1,5 @@
-baseurl = "https://ekaputra07.github.io"
-title = "<ekaputra/>"
+baseurl = "https://ekaputra.dev"
+title = "ekaputra"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -18,7 +18,7 @@ disqusShortname = "yourdiscussshortname"
     info = "Software Engineer"
     description = "Eka Putra | Software engineer from Bali, Indonesia now live and work in Sydney, Australia."
     keywords = "blog,developer,personal"
-    avatarurl = "images/me.jpeg"
+    avatarurl = "images/me.jpg"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
@@ -54,7 +54,7 @@ disqusShortname = "yourdiscussshortname"
 [[menu.main]]
     name = "Projects"
     weight = 1
-    url  = "https://github.com/ekaputra07"
+    url  = "/projects"
 [[menu.main]]
     name = "About"
     weight = 2

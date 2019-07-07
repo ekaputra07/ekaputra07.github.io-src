@@ -3,7 +3,7 @@ title: "About"
 slug: "about"
 ---
 
-Experienced software engineer with a passion for developing smart and scalable software systems. With 9+ years of experiences from developing simple websites for clients to working on backend/API services for apps that serve millions of users.
+Experienced software engineer with a passion for developing scalable software system. With 9+ years of experiences from developing simple websites for clients to working on backend/API services for apps that serve millions of users.
 
 Always eager to learn something new (techniques or programming languages), implements best practices in software development. Have a strong can-do attitude, effective communication and problem solving skills. Happy to work in a team or independently.
 
