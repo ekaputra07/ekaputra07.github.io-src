@@ -22,14 +22,11 @@ jobs:
       - name: Build
         run: hugo --minify
       
-      - name: Commit public submodule
-        run: cd public; git add -A
-        
-      - name: Push to upstream
-        run: cd public; git commit -am"Build via GitHub action"; git push origin master
-
-#       - name: Deploy
-#         uses: peaceiris/actions-gh-pages@v3
-#         with:
-#           github_token: ${{ secrets.GITHUB_TOKEN }}
-#           publish_dir: ./public
+      - name: Deploy
+        run: |
+            cd public
+            git config --global user.email "${{ secrets.EMAIL }}"
+            git config --global user.name "${{ secrets.NAME }}"
+            git add -A
+            git commit -am"Build via GitHub action"
+            git push origin master
