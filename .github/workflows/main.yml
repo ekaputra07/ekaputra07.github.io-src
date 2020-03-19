@@ -23,7 +23,7 @@ jobs:
         run: hugo --minify
       
       - name: Submodules
-        run: cd public; git status
+        run: cat .git/config
 
 #       - name: Deploy
 #         uses: peaceiris/actions-gh-pages@v3
