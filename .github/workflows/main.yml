@@ -22,8 +22,11 @@ jobs:
       - name: Build
         run: hugo --minify
       
-      - name: Submodules
-        run: cat .git/config
+      - name: Commit public submodule
+        run: cd public; git add -A
+        
+      - name: Push to upstream
+        run: cd public; git commit -am"Build via GitHub action"; git push origin master
 
 #       - name: Deploy
 #         uses: peaceiris/actions-gh-pages@v3
